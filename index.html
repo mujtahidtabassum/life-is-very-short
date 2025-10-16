@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-card {
+            border: 2px solid #7ea5af;
+            border-radius: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            margin: 10px;
+            float: left;
+        }
+
+        img {
+            width: 180px;
+            height: 120px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Challenge 1: Basic Page Setup</h1>
+    <h1>Welcome To My Website</h1>
+    <p>This is Mujtahid Tabassum,I am fromThakurgaon,I love Codding</p>
+
+    <hr />
+
+    <h1>Challenge 2: Lists</h1>
+    <h2>My Favorite Foods</h2>
+    <ol>
+        <li>Pizza</li>
+        <li>Pasta</li>
+        <li>Cake</li>
+        <li>Kacchi Briyani</li>
+        <li>Ice Cream</li>
+    </ol>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Singing</li>
+        <li>Coding</li>
+        <li>Playing Indoor Games</li>
+        <ul>
+            <li>Beach trips</li>
+            <li>Mountain hiking</li>
+        </ul>
+        </li>
+    </ul>
+
+    <hr />
+    <h1>Challenge 3: Links</h1>
+
+    <h2>Links</h2>
+    <p>
+        <a href="https://www.google.com">Go to Google (same tab)</a>
+    </p>
+    <p>
+        <a href="https://www.youtube.com" target="_blank">Go to YouTube (new tab)</a>
+    </p>
+    <p>
+        <a href="#search">Go to Searching Section</a>
+    </p>
+    <hr>
+    <h2 id="search">Searching</h2>
+    <p>This is two Website</p>
+
+    <hr />
+    <h1>Challenge 4: Images</h1>
+    <h2>My Favorite Image</h2>
+
+    <figure>
+        <a href="https://www.google.com">
+            <img src="https://cdn.stocksnap.io/img-thumbs/280h/rain-flower_ERM78DQMOZ.jpg" width="400">
+        </a>
+        <figcaption>Click the image to visit Google</figcaption>
+    </figure>
+
+    <hr />
+    <h1>Challenge 5: Tables</h1>
+    <table border="1" style="border-collapse:collapse">
+        <thead>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Computer Graphics</td>
+                <td>95</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Microprocessor</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>80</td>
+                <td>A</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <hr />
+    <h1>Challenge 6: Multimedia</h1>
+    <h2>Audio Song</h2>
+    <audio controls>
+        <source src="Audios/4K_Disco_Ball_Light_I_Flashing_Disco_Lights_I_Party_Flashing_Lights.m4a" type="audio/mpeg">
+    </audio>
+    <p>This is an audio player with controls to play or pause sound.</p>
+
+    <hr>
+
+    <h2>Video Song</h2>
+    <video width="400" controls>
+        <source src="Audios/video_2025-10-16_03-00-43.mp4" type="video/mp4">
+    </video>
+    <p>This is a video player with controls to play or pause the video.</p>
+
+    <hr />
+    <h1>Challenge 7: Semantic Structure</h1>
+
+    <header>
+        <h1>My Website Header</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>My First Article</h2>
+            <p>This is a simple article inside the main section of my webpage. Semantic HTML helps structure content
+                clearly for both users and search engines.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2025 My Website. All rights reserved</p>
+    </footer>
+
+    <hr />
+    <h1>Challenge 8: Forms with Validtion</h1>
+    <h2>Login Form</h2>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember Me</label><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+    <hr />
+    <h1>Challege 9: Blog Article</h1>
+    <article>
+        <h1>The Beauty of Learning Web Development</h1>
+        <p><strong>Date:</strong> October 10, 2025 | <strong>Author:</strong> Mujtahid Tabassum</p>
+
+        <p>Web development is one of the most exciting fields in the modern tech world.
+            It allows you to turn your ideas into reality and share them with the entire world through the internet.</p>
+        <figure>
+            <figcaption>Building creative websites through code.</figcaption>
+        </figure>
+        <p>Learning HTML, CSS, and JavaScript gives you the power to design beautiful, functional, and interactive
+            websites. The more you practice, the more creative you become!</p>
+    </article>
+
+
+    <hr />
+    <h1>Challenge 10: Product Listing Page</h1>
+    <h2>Product Listing</h2>
+
+    <div class="product-card">
+        <a href="Smart Watch.html"><img src="images/watch.jpg" alt="Smart watch"></a>
+        <h3><a href="Smart Watch.html">Smart Watch</a>
+        </h3>
+        <p>Price: $25</p>
+        <p>Category:Electronics</p>
+    </div>
+
+    <div class="product-card">
+        <a href="Book.html"><img src="images/books.jpg" alt="Book"></a>
+        <h3><a href="Book.html">Book</a></h3>
+        <p>Price: $2</p>
+        <p>Category:Books</p>
+    </div>
+
+    <div class="product-card">
+        <a href="Beg.html"><img src="images/beg.jpg" atl="Beg"></a>
+        <h3><a href="Beg.html">Beg</a></h3>
+        <p>Price: $40</p>
+        <p>Category:Fashion</p>
+    </div>
+
+    <div class="product-card">
+        <a href="Mesh Desk.html"><img src="images/Accesories.jpg" alt="Mesh Desk"></a>
+        <h3><a href="Mesh Desk.html">Mesh Desk</a></h3>
+        <p>Price: $2</p>
+        <p>Category:Stationery</p>
+    </div>
+
+    <div class="product-card">
+        <a href="Micro Wave.html"><img src="images/microwave.jpg" alt="Micro Wave"></a>
+        <h3><a href="Micro Wave.html">Micro Wave</a></h3>
+        <p>Price: $10</p>
+        <p>Category:Home Appliances</p>
+    </div>
+</body>
+
+</html>
